@@ -7,11 +7,11 @@ adding a dependency instead of copying a package.
 
 ## Consumers
 
-| Service            | Uses       |
-| ------------------ | ---------- |
-| `crm-workflow`     | `security` |
-| `crm-account`      | `security` |
-| `crm-master-setup` | `security` |
+| Service            |
+| ------------------ |
+| `crm-workflow`     |
+| `crm-account`      |
+| `crm-master-setup` |
 
 Every new service is expected to depend on this.
 
